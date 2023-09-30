@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body {
+  font-family: 'Prompt', sans-serif;
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/942826282211964937/BF13A84321161C264F83D27F28CF5FB8B9E6B551/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+} 
+
+.container {
+  width: 100%;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(27, 55, 84, 0.8);
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 110px;
+  color: aliceblue;
+
+}
+
+.header {
+  font-size: 40px;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-form {
+  width: 140px;
+}
+
+.form-input {
+  margin-bottom: 20px;
+  
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input.form,textarea {
+  border: 1px gainsboro solid;
+  width: 100%;
+}
+
+.col {
+  color: rgb(56, 133, 201);
+}
+.button {
+  border: 0;
+  width: 50%;
+  height: 40px;
+  background-color: #576CBC;
+  color: aliceblue;
+  font-size: 17px;
+  border-radius: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .header {
+    font-size: 24px;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
